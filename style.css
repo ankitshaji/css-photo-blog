@@ -1,0 +1,8 @@
+/*Relative units for scaling*/
+img {
+  /*30% of parent body width - 3 images = 90%*/
+  width: 30%;
+  /*space left at end is 10%*/
+  margin: calc(10% / 6);
+}
+
