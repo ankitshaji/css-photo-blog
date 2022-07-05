@@ -12,4 +12,5 @@ nav {
   width: 30%;
   margin-left: calc(10% / 6);
   padding: 20px 0;
+  font-family: 'Inconsolata', monospace;
 }
