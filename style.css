@@ -6,11 +6,14 @@ img {
   margin: calc(10% / 6);
 }
 nav {
+  font-family: "Inconsolata", monospace;
+  /*looks at parent element - body and multiplies - relative unit em*/
+  font-size: 1.5em;
   text-transform: uppercase;
   border-bottom: 2px solid #f1f1f1;
-  /*30% of parent body*/
+  /*30% of parent element - body*/
   width: 30%;
   margin-left: calc(10% / 6);
-  padding: 20px 0;
-  font-family: 'Inconsolata', monospace;
+  /*looks at parent element - body and multiplies - relative unit em*/
+  padding: 1.1em 0;
 }
