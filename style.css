@@ -5,4 +5,11 @@ img {
   /*space left at end is 10%*/
   margin: calc(10% / 6);
 }
-
+nav {
+  text-transform: uppercase;
+  border-bottom: 2px solid #f1f1f1;
+  /*30% of parent body*/
+  width: 30%;
+  margin-left: calc(10% / 6);
+  padding: 20px 0;
+}
